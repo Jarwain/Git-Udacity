@@ -19,7 +19,8 @@ Describe the differences between forks, clones, and branches.  When would you us
     Branches are a split off of a repository that contains commits relevant for a given feature, sprint, or development cycle. They are used by the main developers of a project to make changes to the project effectively, since they have read/write access to the project. 
     Forks are a more conceptual thing. A fork of a repository is effectively a branch of the project, except it was created through a clone and is, in a sense, its own project. Forks are usually created in one of two scenarios. A fork of a program could be a completely new project started by some developers who were not happy with the direction that the original project has taken, and thus uses the original project as a base that is modified. A fork of a program could also be a branch of another project, created by a developer who does not have write access to the original project and thus has to make his own fork. This is the scenario popular on github: a developer forks a project to make changes/add features, then submits a pull request to have their fork merged back into the project. 
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of
+ the last known state of the remote stored locally?
 
     Having a copy of the last known state of the remote stored locally gives you the current (hopefully working) build of a project/repository. It gives you an up-to-date base to build new features on top of, while minimizing the amount of worrying that needs to be done when merge-time comes around. It also gives you context, in case another developer makes different changes to the project, you can compare the updated version of the project to the one you have locally, and see if there may be any conflicts between it and what you are working on.
 
