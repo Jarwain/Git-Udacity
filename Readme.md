@@ -1,4 +1,4 @@
-# Udacity Git/Github Cource
+# Udacity Git/Github Course
 ## Contains
 - lesson_1_reflections.md
 - lesson_2_reflections.md
